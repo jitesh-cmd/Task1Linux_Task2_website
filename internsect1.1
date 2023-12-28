@@ -1,0 +1,39 @@
+  GNU nano 7.2                                                                                                   internsect1.1                                                                                                             
+.TH INTERNSCTL 1 "December 28, 2023"
+.SH NAME
+internsctl \- custom Linux command
+.SH SYNOPSIS
+.B internsctl
+[\fIOPTION\fR]... \fICOMMAND\fR [\fIARGS\fR]...
+.SH DESCRIPTION
+Custom Linux command for various operations.
+.SH COMMANDS
+.TP
+.B cpu
+Get CPU information.
+.TP
+.B memory
+Get memory information.
+.TP
+.B user
+Manage users.
+.TP
+.B file
+Get information about a file.
+.TP
+.B \-\-version
+Display command version.
+.TP
+.B \-\-help
+Display help information.
+.SH OPTIONS
+.TP
+.B \-\-sudo-only
+List users with sudo permissions.
+.SH SEE ALSO
+.BR lscpu (1),
+.BR free (1),
+.BR useradd (8),
+.BR getent (1),
+.BR ls (1),
+.BR stat (1).
