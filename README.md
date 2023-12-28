@@ -1,7 +1,7 @@
 # Task1Linux
 This is task 1 for xenonstack assignment
 
-xample 1: Get CPU Information
+Example 1: Get CPU Information
 ./internsctl cpu
 
 Example 2: Get Memory Information
